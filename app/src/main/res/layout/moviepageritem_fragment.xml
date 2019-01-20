@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/viewpager1_image"
+        android:paddingTop="10dp"
+        android:src="@drawable/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/viewpager1_title"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="@string/pagerMovieName1"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/home_slider1"
+        android:layout_width="250dp"
+        android:layout_height="5dp" />
+    <TextView
+        android:id="@+id/viewpager_info"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:text="@string/pagerMovieInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/viewpager1_button"
+        android:textSize="20sp"
+        android:background="@drawable/viewpager_button"
+        android:textColor="@android:color/white"
+        android:text="@string/pagerDetail"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+</LinearLayout>
